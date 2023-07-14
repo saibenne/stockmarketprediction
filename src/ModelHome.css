@@ -1,0 +1,39 @@
+.ModelHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:50px;
+    margin: 2% 0%;
+    
+}
+h1{
+    color: white;
+    background-color: rgba(26, 97, 189, 0.931);
+    padding: 5px 15px;
+    font-weight: 400;
+    border-radius: 10px;
+    
+    
+}
+.hlogo{
+   
+}
+img{
+   width: 70vw;
+}
+.Img{
+    display: flex;
+    justify-content: center;
+    margin: 0% 10%;
+}
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    
+}

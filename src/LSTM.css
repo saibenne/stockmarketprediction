@@ -1,0 +1,36 @@
+.errors{
+    background-color: whitesmoke;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.errors ul{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    text-align: left;
+    
+}
+.heading{
+    text-align: center;
+    margin: 5% 0% 1% 0%;
+    background-color: rgba(26, 97, 189, 0.931);;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10%;
+}
+.loader{
+    font-size: 50px;
+    margin-top: 10%;
+}

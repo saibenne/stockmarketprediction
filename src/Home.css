@@ -1,0 +1,18 @@
+.home{
+   
+    height: 200vh;
+    background-image: url('landscape.jpg');
+    margin-top: 0%;
+    background-size: cover;
+    overflow: hidden;
+}
+.home h1{
+    color: white;
+    word-wrap: break-word;
+    font-size: 6vw;
+    text-align: center;
+   position: relative;
+   top: 3%;
+   font-weight: 400;
+
+}

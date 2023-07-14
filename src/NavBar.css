@@ -1,0 +1,41 @@
+.Logo{
+    text-align: center;
+    font-size:4vw;
+    font-weight: 300;
+    background-color: white;
+    color: black;
+    padding: 10px 10px;
+    width: 100%;
+}
+.NavBar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    position:sticky;
+    top:-15%;
+    background-color: rgba(26, 97, 189, 0.931);
+    z-index: 1;
+}
+.Models ul{
+    display: flex;
+    gap:10px;
+    padding: 10px;
+}
+.Models ul li{
+    list-style: none;
+    color:black;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+*{
+    text-decoration: none;
+}
+a{
+    color: black;
+    font-weight: 500;
+}
+a:visited .Models ul li{
+    background-color: green;
+}
